@@ -18,7 +18,46 @@
         <h1>Odin: The journey starts here</h1>
       </div>
     </div>
-    
+    <div class="right">
+      <div class="fake-heading-text">
+        <p>This is not a real online service! Be part of a small experience, as the experience you will have will be out of this world (literally)</p>
+        <p>Sign up <em>now</em> to get started</p>
+        <p>You will miss out if you don't.</p>
+      </div>
+      <form action="#" method="post">
+        <div class="form">
+          <p>Blast Off!!</p>
+          <div class="input-section">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+          </div>
+          <div class="input-section">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required>
+          </div>
+          <div class="input-section">
+            <label for="ccn">Credit Card Number</label>
+            <input type="tel" id="ccn" name="ccn" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required>
+          </div>
+          <div class="input-section">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="input-section">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"required>
+          </div>
+          <div class="input-section">
+            <label for="confirm">Confirm Password</label>
+            <input type="password" id="confirm" name="confirm"required>
+          </div>
+        </div>
+        <div class="btn-create">
+          <button type="submit">Create Account</button>
+        </div>
+      </form>
+      <div class="log-in"><p>Already have an account? <a href="#">Log In</a></p></div>
+    </div>
   </div>
 </body>
 </html>
