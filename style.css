@@ -13,12 +13,37 @@ p{
   margin:0;
   padding:0;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.container,
+.logo{
+  display: flex;
+  flex-flow:row wrap;
 }
-ul,
-ol{
-  list-style: none;
+.logo img{
+  width:100px;
+  margin-right: 15px;
+}
+.logo{
+  position: relative;
+  top:25vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.logo h1{
+  color:white;
+}
+.credits{
+  color:white
+}
+
+.left{
+  background-image: url('./images/Background-Image.jpg');
+  background-position: 50% 12%;
+  height: 100vh;
+  width:40vw;
+}
+.credits{
+  position: relative;
+  top:97vh;
 }
