@@ -123,3 +123,101 @@ button:hover{
   width:50%;
   justify-content: center;
 }
+.log-in a{
+  text-decoration: none;
+  color:#8A6393;
+}
+@media only screen and (max-width: 1350px){
+  .inputs{
+    width:85%;
+  }
+}
+@media only screen and (max-width: 1110px){
+  .left{
+    display:none;
+  }
+  .right{
+    
+    width:100vw;
+    height:100vh;
+  }
+  button{
+    width:730px;
+  }
+}
+@media only screen and (max-width: 960px){
+  .inputs{
+    width:147%;
+  }
+}
+@media only screen and (max-width: 960px){
+  .left{
+    display: none;
+  }
+  .right{
+    
+    width:100vw;
+    height:100vh;
+  }
+  .inputs{
+    width:100%
+  }
+  button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:723px;
+  }
+  .bottom-right{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 910px){
+  .inputs{
+    width:90%;
+  }
+  .input-section{
+    width:300px;
+    justify-content: center;
+  }
+  button{
+    width:670px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 834px){
+  .inputs{
+    width:90%;
+  }
+  .fake-heading-text{
+    display: none;
+  }
+  button{
+    width:300px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .bottom-right{
+    width:50%;
+  }
+}
+@media only screen and (max-width:654px){
+  .bottom-right{
+    width:60%;
+  }
+  .right{
+    width: 100vw;
+  }
+}
+@media only screen and (max-width:466px){
+  .bottom-right{
+    width:80%;
+  }
+}
+@media only screen and (max-width:378px){
+  .bottom-right{
+    width:100%;
+  }
+  button{
+    width:280px;
+  }
+}
