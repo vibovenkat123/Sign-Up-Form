@@ -26,37 +26,42 @@
       </div>
       <form action="#" method="post">
         <div class="form">
-          <p>Blast Off!!</p>
-          <div class="input-section">
-            <label for="fullName">Full Name</label>
-            <input type="text" id="fullName" name="fullName" required>
+          <p class="beginning-text">Blast Off!!</p>
+          <div class="inputs">
+            <div class="input-section">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" placeholder="John Smith" required>
+            </div>
+            <div class="input-section">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}" title = "the requested format is 'example@example.com'" placeholder = 'example@example.com'required>
+            </div>
+            <div class="input-section">
+              <label for="ccn">Credit Card Number</label>
+              <input type="tel" id="ccn" name="ccn" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" title='The requested format is xxxx xxxx xxxx xxxx'required>
+            </div>
+            <div class="input-section">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12" title="the requested format is '888 888 8888'" placeholder="888 888 8888">
+            </div>
+            <div class="input-section">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password"required>
+            </div>
+            <div class="input-section">
+              <label for="confirm">Confirm Password</label>
+              <input type="password" id="confirm" name="confirm"required>
+            </div>
           </div>
-          <div class="input-section">
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" name="lastName" required>
-          </div>
-          <div class="input-section">
-            <label for="ccn">Credit Card Number</label>
-            <input type="tel" id="ccn" name="ccn" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required>
-          </div>
-          <div class="input-section">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone">
-          </div>
-          <div class="input-section">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password"required>
-          </div>
-          <div class="input-section">
-            <label for="confirm">Confirm Password</label>
-            <input type="password" id="confirm" name="confirm"required>
-          </div>
+          
         </div>
         <div class="btn-create">
           <button type="submit">Create Account</button>
         </div>
       </form>
-      <div class="log-in"><p>Already have an account? <a href="#">Log In</a></p></div>
+      <div class="bottom-right">
+        <div class="log-in"><p>Already have an account? <a href="#">Log In</a></p></div>
+      </div>
     </div>
   </div>
 </body>

@@ -47,3 +47,79 @@ p{
   position: relative;
   top:97vh;
 }
+.right{
+  width:59vw;
+  background-color: black;
+  display: flex;
+  color:white;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.form,
+.log-in,
+.btn-create{
+  padding-left: 4vw;
+}
+.fake-heading-text{
+  width:80%;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-left: 78px;
+}
+.fake-heading-text p{
+  margin-bottom: 20px;
+}
+form{
+  box-shadow: 100%;
+  flex-flow: row wrap;
+  padding:20px 0;
+  box-shadow: 50%;
+}
+.input-section{
+  display: flex;
+  flex-flow: column wrap;
+  width: 200px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin: 15px 30px;
+}
+.beginning-text{
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.inputs{
+  width:50%;
+  display: flex;
+  flex-flow: row wrap
+}
+input{
+  background-color: #1b273a;
+  border: 1px solid black;
+  border-radius: 9px;
+  height:30px;
+  color: white;
+}
+input:valid{
+  border-color: green;
+}
+input:invalid{
+  border-color: red;
+}
+button{
+  background-color: #8A6393;
+  border-radius: 10px;
+  margin-left: 25px;
+  width:470px;
+  height: 50px;
+  font-size: 1.5em;
+  
+}
+button:hover{
+  cursor: pointer;
+}
+.bottom-right{
+  display: flex;
+  width:50%;
+  justify-content: center;
+}
